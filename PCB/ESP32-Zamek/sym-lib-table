@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FT232")(type "KiCad")(uri "${KIPRJMOD}/ESP_Elements_Footprints/2024-11-08_21-05-18.kicad_sym")(options "")(descr ""))
+)
