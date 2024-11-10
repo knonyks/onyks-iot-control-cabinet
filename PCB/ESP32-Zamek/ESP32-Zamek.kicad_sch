@@ -2375,196 +2375,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2SC4213"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2SC4213"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.3A Ic, 20V Vce, NPN Transistor, For Muting and Switching, SOT-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2SC4213_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2SC4213_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -2807,12 +2617,6 @@
 		(uuid "5d229f7c-54d0-48b8-af5b-4dfb8c4d900b")
 	)
 	(junction
-		(at 207.01 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "608bd96f-2413-498a-8f9f-1ad710783fcc")
-	)
-	(junction
 		(at 252.73 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2823,12 +2627,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a191f7e-4b60-4eba-837c-43de30c05d8f")
-	)
-	(junction
-		(at 205.74 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1291019-90dd-4534-a647-cd228892610e")
 	)
 	(no_connect
 		(at 252.73 107.95)
@@ -2861,6 +2659,10 @@
 	(no_connect
 		(at 252.73 105.41)
 		(uuid "753e0314-f72a-4471-a887-7d24eab1acb4")
+	)
+	(no_connect
+		(at 252.73 48.26)
+		(uuid "86d7f191-8185-49fa-be40-af77d1c3dda5")
 	)
 	(no_connect
 		(at 252.73 27.94)
@@ -2938,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 210.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3ba0c0-532c-4788-86fc-0a9d78578476")
-	)
-	(wire
-		(pts
 			(xy 195.58 30.48) (xy 207.01 30.48)
 		)
 		(stroke
@@ -3008,26 +2800,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56513fa1-14b2-4409-b941-7d8374f75a4f")
-	)
-	(wire
-		(pts
-			(xy 205.74 95.25) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6051eeb7-924f-4d6e-a495-b6a8a3de4945")
-	)
-	(wire
-		(pts
 			(xy 265.43 53.34) (xy 264.16 53.34)
 		)
 		(stroke
@@ -3055,16 +2827,6 @@
 			(type default)
 		)
 		(uuid "71853938-fc98-4b59-8014-7652fecd814e")
-	)
-	(wire
-		(pts
-			(xy 190.5 86.36) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73179398-7437-4ad3-a18b-d573eb042182")
 	)
 	(wire
 		(pts
@@ -3098,16 +2860,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 190.5 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7291b7-83a4-43fc-b721-8a40bd636cf9")
-	)
-	(wire
-		(pts
 			(xy 252.73 90.17) (xy 232.41 90.17)
 		)
 		(stroke
@@ -3118,36 +2870,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 190.5 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97bfb104-1767-4ce1-9c7b-46d27b5da0f8")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 207.01 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9fb667-da85-4203-b1e1-b75b631c19d7")
-	)
-	(wire
-		(pts
-			(xy 205.74 95.25) (xy 210.82 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c084ff1-38a0-447e-a9c4-d684b8cd2c5f")
-	)
-	(wire
-		(pts
 			(xy 201.93 33.02) (xy 207.01 33.02)
 		)
 		(stroke
@@ -3155,16 +2877,6 @@
 			(type default)
 		)
 		(uuid "a66f5714-5444-47c6-a648-988e9c05f6b2")
-	)
-	(wire
-		(pts
-			(xy 198.12 76.2) (xy 199.39 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8e7e8ba-0875-4cce-b70c-ffb3aec2f778")
 	)
 	(wire
 		(pts
@@ -3250,28 +2962,6 @@
 		)
 		(uuid "aa0ff2ca-36eb-4c7f-a50e-8e5e78656270")
 	)
-	(global_label "RTS"
-		(shape input)
-		(at 210.82 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08cfcf15-8226-4bdc-a5f6-14be7879ae12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.2523 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D_P"
 		(shape input)
 		(at 252.73 58.42 0)
@@ -3338,28 +3028,6 @@
 			)
 		)
 	)
-	(global_label "DTR"
-		(shape input)
-		(at 210.82 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b430a37-0197-4f91-9936-b63d9d7244ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3128 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3_LOGIC"
 		(shape input)
 		(at 265.43 53.34 0)
@@ -3400,28 +3068,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 190.5 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "573d0c2f-75a1-4698-8c48-fbf7d0353701")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 65.6553 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3527,28 +3173,6 @@
 		(uuid "992753d7-db25-4eb0-84f1-9e53e8905203")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.0872 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO0{slash}BOOTLOADER"
-		(shape input)
-		(at 190.5 100.33 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a30901c0-e3cf-49d9-a9d7-1b0c07be02e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 122.3653 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,73 +3517,6 @@
 			(project "ESP32-Zamek"
 				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32be1fc5-8b89-419d-9a5e-0aba589b3535")
-		(property "Reference" "R3"
-			(at 203.2 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 203.2 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a34b53c-7414-4f5c-bce2-4cec9f6bfa55")
-		)
-		(pin "1"
-			(uuid "4fb5d285-d8d7-45b9-bb7d-d8c593ef1062")
-		)
-		(instances
-			(project "ESP32-Zamek"
-				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4486,81 +4043,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC4213")
-		(at 193.04 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9463471f-9438-4906-b326-e19860eae4b1")
-		(property "Reference" "Q2"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SC4213"
-			(at 187.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 187.96 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213"
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20486ccb-1195-434d-bfd4-82b37b3dcc3e")
-		)
-		(pin "2"
-			(uuid "271d72d3-1444-4d6a-8459-0a8f3befd355")
-		)
-		(pin "3"
-			(uuid "82dcb64f-48c8-499a-b32d-4cdf5e160857")
-		)
-		(instances
-			(project "ESP32-Zamek"
-				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2024-11-08_21-05-18:FT232RNL-REEL")
 		(at 207.01 25.4 0)
 		(unit 1)
@@ -4838,82 +4320,6 @@
 			(project "ESP32-Zamek"
 				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2SC4213")
-		(at 193.04 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afce08bb-e410-4e0d-9d0d-4913729ac91a")
-		(property "Reference" "Q1"
-			(at 187.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SC4213"
-			(at 187.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 187.96 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afb6576d-208f-4630-9eca-894d1fb5ebc8")
-		)
-		(pin "2"
-			(uuid "2637dad8-e2d9-48c0-9d13-1a7010479973")
-		)
-		(pin "3"
-			(uuid "ce1d21ba-3fe7-479e-9bf6-8b6975cb79ca")
-		)
-		(instances
-			(project "ESP32-Zamek"
-				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5293,73 +4699,6 @@
 			(project "ESP32-Zamek"
 				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d378291b-fa94-436c-89aa-ff3ea7c14bc4")
-		(property "Reference" "R4"
-			(at 201.93 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 201.93 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0855463f-0e52-4dfc-bd47-1ae1048064b2")
-		)
-		(pin "2"
-			(uuid "6390937e-1bf2-4fe6-bb02-cc743fb6c7c6")
-		)
-		(instances
-			(project "ESP32-Zamek"
-				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
-					(reference "R4")
 					(unit 1)
 				)
 			)
