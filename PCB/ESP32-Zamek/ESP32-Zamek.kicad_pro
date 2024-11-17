@@ -531,7 +531,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -546,10 +546,6 @@
     [
       "9d274b51-c8f1-4e6c-b044-a1139c58668e",
       "Główny"
-    ],
-    [
-      "e996e5db-de6f-4578-ace9-70f4eb2462bf",
-      "nfc"
     ]
   ],
   "text_variables": {}
