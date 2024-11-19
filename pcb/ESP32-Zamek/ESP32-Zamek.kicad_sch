@@ -361,6 +361,164 @@
 				)
 			)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(arc
+					(start 0 -3.175)
+					(mid 3.1612 0)
+					(end 0 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2475,6 +2633,12 @@
 		(uuid "4d820d06-0e2b-494f-aa51-10b353b50023")
 	)
 	(junction
+		(at 140.97 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50575f28-234b-4183-9b49-0c610c3189d9")
+	)
+	(junction
 		(at 110.49 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,6 +2655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4e89016-6941-4e4d-9a98-f04ffc97f7d5")
+	)
+	(junction
+		(at 127 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de904952-5a8f-40a1-9b32-a5b33125abba")
 	)
 	(no_connect
 		(at 29.21 83.82)
@@ -2572,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 151.13) (xy 120.65 151.13)
+			(xy 209.55 151.13) (xy 217.17 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2622,13 +2792,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 119.38 142.24)
+			(xy 209.55 142.24) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2679c94c-0e96-46d2-a868-a0de6e5f7ab6")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.75) (xy 140.97 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1e6994-073c-4078-a8b1-7017431a5160")
 	)
 	(wire
 		(pts
@@ -2672,6 +2852,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 173.99) (xy 127 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e738fd-e32a-4f11-988e-2ec7e00832f6")
+	)
+	(wire
+		(pts
 			(xy 110.49 90.17) (xy 110.49 93.98)
 		)
 		(stroke
@@ -2679,6 +2869,16 @@
 			(type default)
 		)
 		(uuid "35f9f16a-9802-4f83-ad79-45c1eb612bf4")
+	)
+	(wire
+		(pts
+			(xy 127 166.37) (xy 133.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37818e95-52c8-42e1-8d75-1f7c240bb1e7")
 	)
 	(wire
 		(pts
@@ -2712,7 +2912,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 119.38 144.78)
+			(xy 121.92 166.37) (xy 127 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534e75fe-5db5-4579-bbe7-acade04c8a4f")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 215.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +3042,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 153.67) (xy 120.65 153.67)
+			(xy 127 175.26) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b808b00-9c97-4afc-8523-82d6246473ac")
+	)
+	(wire
+		(pts
+			(xy 210.82 153.67) (xy 217.17 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2902,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 153.67) (xy 140.97 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947daeec-d9b4-4840-95fc-fcbf36a93eca")
+	)
+	(wire
+		(pts
 			(xy 114.3 113.03) (xy 110.49 113.03)
 		)
 		(stroke
@@ -2919,6 +3149,16 @@
 			(type default)
 		)
 		(uuid "9673c23e-ebeb-41b9-b7c9-a8013420da00")
+	)
+	(wire
+		(pts
+			(xy 140.97 175.26) (xy 140.97 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b31adc-14eb-4b2f-96b4-7c0d7bfec13d")
 	)
 	(wire
 		(pts
@@ -3009,6 +3249,16 @@
 			(type default)
 		)
 		(uuid "aec6a69e-81f8-4959-855a-a765fd3e6046")
+	)
+	(wire
+		(pts
+			(xy 144.78 158.75) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c10f91-8e5d-43e8-9e52-80cf9117e0a9")
 	)
 	(wire
 		(pts
@@ -3122,6 +3372,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 148.59) (xy 140.97 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d866f986-2bd4-4a8c-9c6a-e31f6f67692a")
+	)
+	(wire
+		(pts
 			(xy 64.77 153.67) (xy 60.96 153.67)
 		)
 		(stroke
@@ -3199,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "eb4cbc3b-144b-43a2-989c-099ad171b68f")
+	)
+	(wire
+		(pts
+			(xy 140.97 171.45) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14f9183-412e-479d-8c35-bdf8e0f761dc")
 	)
 	(wire
 		(pts
@@ -3315,8 +3585,8 @@
 		(uuid 08037f5a-9db0-4cfb-9b98-bae6c56b93dd)
 	)
 	(rectangle
-		(start 93.98 127.635)
-		(end 151.13 159.385)
+		(start 190.5 127.635)
+		(end 247.65 159.385)
 		(stroke
 			(width 0.635)
 			(type default)
@@ -3385,6 +3655,18 @@
 			(type none)
 		)
 		(uuid 8f59a441-8443-477b-bb4a-7a37aaea49d3)
+	)
+	(rectangle
+		(start 96.52 130.175)
+		(end 169.545 186.055)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a576a421-8584-48ee-b938-adaeacad52a8)
 	)
 	(rectangle
 		(start 414.274 106.172)
@@ -3510,6 +3792,18 @@
 		)
 		(uuid "3f495b4e-4121-4769-8d41-7c2374231d31")
 	)
+	(text "Buzzer Controller"
+		(exclude_from_sim no)
+		(at 124.46 136.144 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "77018059-9db0-45f9-909e-869ca837ea2d")
+	)
 	(text "JTAG"
 		(exclude_from_sim no)
 		(at 338.328 130.048 0)
@@ -3560,7 +3854,7 @@
 	)
 	(text "Lock Connector"
 		(exclude_from_sim no)
-		(at 121.412 135.128 0)
+		(at 217.932 135.128 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3914,7 +4208,7 @@
 	)
 	(global_label "LOCK_MINUS"
 		(shape input)
-		(at 114.3 153.67 180)
+		(at 210.82 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3924,7 +4218,7 @@
 		)
 		(uuid "42ae140e-2734-4659-afe5-66ffab7e8ec9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5219 153.67 0)
+			(at 196.0419 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,6 +4690,28 @@
 			)
 		)
 	)
+	(global_label "BUZZER_SWITCH"
+		(shape input)
+		(at 121.92 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cda343a-3d6d-4e31-b335-c0bb5c36f71b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.6949 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_MTCK"
 		(shape input)
 		(at 71.12 63.5 0)
@@ -4508,7 +4824,7 @@
 	)
 	(global_label "LOCK_MINUS"
 		(shape input)
-		(at 114.3 144.78 180)
+		(at 210.82 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4518,7 +4834,7 @@
 		)
 		(uuid "cf3a6618-482e-4b08-87c5-9d122bcfafc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5219 144.78 0)
+			(at 196.0419 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4846,7 @@
 	)
 	(global_label "LOCK_PLUS"
 		(shape input)
-		(at 113.03 151.13 180)
+		(at 209.55 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4540,7 +4856,7 @@
 		)
 		(uuid "d9c6fba6-0eb3-4105-afdf-cdbbfa4737a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3405 151.13 0)
+			(at 195.8605 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +4978,7 @@
 	)
 	(global_label "LOCK_PLUS"
 		(shape input)
-		(at 113.03 142.24 180)
+		(at 209.55 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +4988,7 @@
 		)
 		(uuid "f5505b94-1c99-4f63-9697-4d5cb185936a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3405 142.24 0)
+			(at 195.8605 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,6 +5129,106 @@
 			(project "ESP32-Zamek"
 				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 138.43 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0e4bfb-61fb-4933-bb42-92dd41e0b139")
+		(property "Reference" "Q?"
+			(at 144.78 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQ4940CEY-T1_GE3"
+			(at 144.78 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 138.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 138.43 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 138.43 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 138.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "744f1973-f750-44b1-ae9e-7fd3998f45fb")
+		)
+		(pin "3"
+			(uuid "073c73d8-aa01-469f-9009-b6a9da7640dc")
+		)
+		(pin "2"
+			(uuid "7a8d6a0f-6270-4d78-ab35-7fe468b12991")
+		)
+		(instances
+			(project "ESP32-Zamek"
+				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -4985,7 +5401,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 124.46 142.24 0)
+		(at 220.98 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4994,7 +5410,7 @@
 		(fields_autoplaced yes)
 		(uuid "358459db-64e3-4405-a862-1ad8e56ef6d0")
 		(property "Reference" "J?"
-			(at 127 142.2399 0)
+			(at 223.52 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5419,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 127 144.7799 0)
+			(at 223.52 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 142.24 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 142.24 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5446,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 142.24 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,6 +5464,143 @@
 			(project ""
 				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 147.32 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41674629-61e9-495d-90e2-b898491e2901")
+		(property "Reference" "BZ?"
+			(at 151.13 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 151.13 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.685 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.685 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 147.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca762f6-845e-4bb5-81f9-986aff516cfe")
+		)
+		(pin "2"
+			(uuid "fc183048-3e7d-4531-9837-2288a19e79ab")
+		)
+		(instances
+			(project ""
+				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
+					(reference "BZ?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 140.97 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4402d88b-2b4a-4615-94e5-72885666ffd4")
+		(property "Reference" "#PWR028"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4bddf7d-fb16-4a32-9ccc-114aa39e35f5")
+		)
+		(instances
+			(project "ESP32-Zamek"
+				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5301,7 +5854,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 125.73 151.13 0)
+		(at 222.25 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5310,7 +5863,7 @@
 		(fields_autoplaced yes)
 		(uuid "76078f78-c7bf-4c11-803d-fbc604def74c")
 		(property "Reference" "J1"
-			(at 127 151.1299 0)
+			(at 223.52 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5872,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 127 153.6699 0)
+			(at 223.52 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 151.13 0)
+			(at 222.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 151.13 0)
+			(at 222.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5899,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 125.73 151.13 0)
+			(at 222.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,6 +6774,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 127 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3338265-dd6f-4803-9cbb-09350843d6dc")
+		(property "Reference" "R?"
+			(at 129.54 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 129.54 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.222 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "314aafc5-a101-4214-a400-9f0d39ad5c7a")
+		)
+		(pin "1"
+			(uuid "ee6a738a-081c-4970-a5e1-c110298c4c23")
+		)
+		(instances
+			(project "ESP32-Zamek"
+				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 140.97 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3da24ff-d61c-4884-b576-9d0a872f2026")
+		(property "Reference" "#PWR027"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 140.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304f9a8c-fe2a-4c5a-ae67-713b074e3c8b")
+		)
+		(instances
+			(project "ESP32-Zamek"
+				(path "/9d274b51-c8f1-4e6c-b044-a1139c58668e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 49.53 40.64 0)
 		(unit 1)
@@ -6582,7 +7271,7 @@
 		)
 	)
 	(sheet
-		(at 194.945 112.395)
+		(at 191.135 108.585)
 		(size 43.18 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -6594,7 +7283,7 @@
 		)
 		(uuid "03463b50-e120-4224-995a-1eac81a4cb5f")
 		(property "Sheetname" "Power Supply and NFC Connector"
-			(at 194.945 111.6834 0)
+			(at 191.135 107.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +7292,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 194.945 126.9496 0)
+			(at 191.135 123.1396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
