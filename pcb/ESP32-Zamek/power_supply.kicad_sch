@@ -2385,6 +2385,25 @@
 		)
 		(uuid 97757fe8-df40-44f5-ac1f-5bbf620b1478)
 	)
+	(text_box "Headery dla RFID RC522"
+		(exclude_from_sim no)
+		(at 76.2 128.905 0)
+		(size 18.415 10.795)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "48a7e255-ecee-49b3-8dd6-c9e74d28115c")
+	)
 	(text_box "V_OUT = 3.3 V\nI_OUT_MAX = 2 A\n\nV_IN = 9V\n	I_IN_AVG = 800 mA\n	PWR_DISSIPATION = 600 mW\n\nV_IN = 12V\n	I_IN_AVG = 650 mA\n	PWR_DISSIPATION =  650 mW\n\nV_IN = 24V\n	I_IN_AVG = 350 mA\n	PWR_DISSIPATION = 1 W\n"
 		(exclude_from_sim no)
 		(at 20.955 66.675 0)
@@ -2403,6 +2422,25 @@
 			(justify left top)
 		)
 		(uuid "9a3aa91e-e0c8-422a-9f46-58cde58ddb77")
+	)
+	(text_box "Port śrubowy lub DC Jack"
+		(exclude_from_sim no)
+		(at 223.52 40.64 0)
+		(size 18.415 10.795)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c9b1077f-c9a3-4c08-8371-e10faad34d6c")
 	)
 	(text "NFC Connector"
 		(exclude_from_sim no)
