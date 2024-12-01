@@ -5759,7 +5759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 126.492 176.53 90)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.43 56.388 90)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ourFootprints:QFN50P600X600X100-41N-D"
 			(at 67.31 170.18 0)
 			(effects
 				(font
@@ -7121,7 +7121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 138.43 76.708 90)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.022 176.53 90)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ourFootprints:QFN50P600X600X100-41N-D"
 			(at 144.78 170.18 0)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 237.49 72.39 0)
 			(effects
 				(font
