@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "FT232RNL-REEL")(type "KiCad")(uri "${KIPRJMOD}/ESP_Elements_Footprints/symbols/FT232RNL-REEL.kicad_sym")(options "")(descr ""))
-  (lib (name "PN7160A1HN_C100E")(type "KiCad")(uri "${KIPRJMOD}/ESP_Elements_Footprints/symbols/PN7160A1HN_C100E.kicad_sym")(options "")(descr ""))
-)
