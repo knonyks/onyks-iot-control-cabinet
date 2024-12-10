@@ -6542,7 +6542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SQ4940CEY-T1_GE3"
+		(property "Value" "SQ4050EY-T1_GE3"
 			(at 146.05 173.9899 0)
 			(effects
 				(font
@@ -6724,7 +6724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SQ4940CEY-T1_GE3"
+		(property "Value" "SQ4050EY-T1_GE3"
 			(at 68.58 173.9899 0)
 			(effects
 				(font
