@@ -1883,6 +1883,18 @@
 		(uuid "00baf36b-7207-48c1-8bed-bac74245c2a7")
 	)
 	(junction
+		(at 81.28 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126900f6-3ffa-49e6-b125-b64aadd7adba")
+	)
+	(junction
+		(at 81.28 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335891ae-9e84-4c84-b823-c1dcfbb1df9f")
+	)
+	(junction
 		(at 187.96 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1893,6 +1905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "743afcd0-f886-42f4-a12f-958cd5bd6cea")
+	)
+	(junction
+		(at 81.28 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a900f1-b9a8-443d-9b0d-3d947ec41e4c")
 	)
 	(junction
 		(at 187.96 114.3)
@@ -1923,6 +1941,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d03de161-5bb4-4eef-81e9-28aeec17c284")
+	)
+	(no_connect
+		(at 86.36 121.92)
+		(uuid "5cd2c1f2-1d2a-4953-abc7-9c4ec48178de")
+	)
+	(no_connect
+		(at 99.06 132.08)
+		(uuid "fbb2d0fd-21e5-46b7-aef7-03c8ca92f9df")
 	)
 	(wire
 		(pts
@@ -1976,6 +2002,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 127) (xy 81.28 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14617645-e254-438a-b59b-4bbe3f1aba7c")
+	)
+	(wire
+		(pts
 			(xy 167.64 119.38) (xy 172.72 119.38)
 		)
 		(stroke
@@ -2026,16 +2062,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 77.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27de39e1-df6e-422e-b023-09f1fe6e940f")
-	)
-	(wire
-		(pts
 			(xy 158.75 77.47) (xy 186.69 77.47)
 		)
 		(stroke
@@ -2056,13 +2082,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 77.47 127)
+			(xy 99.06 127) (xy 102.87 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46e7e543-d34a-436b-8bc1-c0cb86132940")
+		(uuid "3bc1444f-362d-4a6e-8c5e-1dee0eb3f125")
 	)
 	(wire
 		(pts
@@ -2096,13 +2122,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 77.47 124.46)
+			(xy 99.06 121.92) (xy 102.87 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "679e8cda-0a94-4e7c-b88b-586422366f1e")
+		(uuid "69915666-110a-454a-84c9-8bb36d1b50f8")
 	)
 	(wire
 		(pts
@@ -2186,13 +2212,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 77.47 121.92)
+			(xy 99.06 124.46) (xy 102.87 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "986e9f51-3567-4807-a76f-5fab46a5fd0b")
+		(uuid "903b2c2e-17cf-4afc-87d5-28ec0766988e")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 102.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df3158c-37a6-4300-b88f-406906a6d44b")
 	)
 	(wire
 		(pts
@@ -2213,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "9f83d52e-6d38-4551-bbee-ae14080feb81")
+	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cfef79-7a0c-4a33-ad70-27324859c2f2")
 	)
 	(wire
 		(pts
@@ -2276,6 +2322,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 124.46) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dab822-ce13-4075-9655-15dd538db0c3")
+	)
+	(wire
+		(pts
 			(xy 185.42 127) (xy 187.96 127)
 		)
 		(stroke
@@ -2336,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 129.54) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1a4543-6e33-4e4a-bf9f-963b4da7ea25")
+	)
+	(wire
+		(pts
 			(xy 167.64 114.3) (xy 172.72 114.3)
 		)
 		(stroke
@@ -2343,6 +2409,26 @@
 			(type default)
 		)
 		(uuid "ef9a6972-01c3-4a70-ac93-d3322bbe84bf")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08f73ad-ad2b-4c64-8072-f3be5bdf9f34")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd47f5a8-5b91-4f02-adea-ea7268a837a3")
 	)
 	(rectangle
 		(start 139.7 90.17)
@@ -2526,13 +2612,13 @@
 	)
 	(hierarchical_label "JTAG_MTMS"
 		(shape input)
-		(at 77.47 121.92 180)
+		(at 102.87 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "58db0646-0c01-464d-b5b6-25cb982a2d87")
 	)
@@ -2550,25 +2636,25 @@
 	)
 	(hierarchical_label "JTAG_MTCK"
 		(shape input)
-		(at 77.47 124.46 180)
+		(at 102.87 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6fce8826-e0f3-4c3a-bd67-a1dd40e1b87c")
 	)
 	(hierarchical_label "JTAG_MTDI"
 		(shape input)
-		(at 77.47 127 180)
+		(at 102.87 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "778c9074-e8c0-4ac5-a7db-c2010add0bac")
 	)
@@ -2670,13 +2756,13 @@
 	)
 	(hierarchical_label "JTAG_MTDO"
 		(shape input)
-		(at 77.47 129.54 180)
+		(at 102.87 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f2d9c6af-b8b4-4971-941d-3da7cc5f05ea")
 	)
