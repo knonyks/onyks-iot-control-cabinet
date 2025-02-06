@@ -1943,10 +1943,6 @@
 		(uuid "d03de161-5bb4-4eef-81e9-28aeec17c284")
 	)
 	(no_connect
-		(at 86.36 121.92)
-		(uuid "5cd2c1f2-1d2a-4953-abc7-9c4ec48178de")
-	)
-	(no_connect
 		(at 99.06 132.08)
 		(uuid "fbb2d0fd-21e5-46b7-aef7-03c8ca92f9df")
 	)
@@ -2369,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "e9ed5cff-0eaf-42e0-a61c-ca5e56c250ef")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed210b2e-1325-496d-928f-821be09892d2")
 	)
 	(wire
 		(pts
@@ -3336,6 +3342,71 @@
 			(project "onyks_iot_control_cabinet_pcb"
 				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0/9fa608f4-5282-4caa-ae1b-46582b97cb5d"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4fc262e-cb9e-4467-a267-fc4b76d53e13")
+		(property "Reference" "#PWR026"
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ee2058-03b7-43ff-adeb-72451ed2c512")
+		)
+		(instances
+			(project "onyks_iot_control_cabinet_pcb"
+				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0/9fa608f4-5282-4caa-ae1b-46582b97cb5d"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
