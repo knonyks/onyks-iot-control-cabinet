@@ -3575,6 +3575,17 @@
 				(xyz -90 0 -180)
 			)
 		)
+		(model "${KIPRJMOD}/3D/Same_Sky_CPI-2416-100T.step"
+			(offset
+				(xyz 0 -6 -6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -5413,6 +5424,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -5936,6 +5958,17 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "345a22b7-19ec-481d-8467-29c34922eec8")
+		)
+		(model "${KIPRJMOD}/3D/XAL6060-562MEC.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
@@ -6627,6 +6660,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3D/Same_Sky_PJ-036AH-SMT-TR.step"
+			(offset
+				(xyz 0 -10 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 -180)
 			)
 		)
 	)
@@ -11261,6 +11305,29 @@
 			(uuid "7049c129-42c7-465a-93e1-1ff5e9a2f27a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-10_1x10_P5.00mm_Horizontal.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
