@@ -601,12 +601,20 @@
       "Główny"
     ],
     [
+      "13ebc194-338a-49a6-8327-5cf2c633b763",
+      "MCU"
+    ],
+    [
       "4d976a63-6b51-465b-8a87-51604fe7b516",
-      "power_supply_nfc_connector"
+      "Power Supply"
+    ],
+    [
+      "48990703-11cc-42d8-8502-72244c0bfa20",
+      "Locker"
     ],
     [
       "9fa608f4-5282-4caa-ae1b-46582b97cb5d",
-      "connnectors"
+      "Output Connectors"
     ]
   ],
   "text_variables": {}
