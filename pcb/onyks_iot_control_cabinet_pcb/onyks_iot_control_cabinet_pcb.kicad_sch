@@ -233,6 +233,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e11c4f-e8a2-492e-ae65-4e5377729e22")
+	)
+	(wire
+		(pts
 			(xy 160.02 121.92) (xy 189.23 121.92)
 		)
 		(stroke
@@ -253,16 +263,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 95.25) (xy 189.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d6ef0b-c717-4da0-b523-c176c499b28f")
-	)
-	(wire
-		(pts
 			(xy 160.02 64.77) (xy 189.23 64.77)
 		)
 		(stroke
@@ -270,6 +270,16 @@
 			(type default)
 		)
 		(uuid "4adbfdab-6029-44ab-ad3a-75d440d7fdf3")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a03f4a4-af59-41c3-ae98-5b6197113271")
 	)
 	(wire
 		(pts
@@ -310,16 +320,6 @@
 			(type default)
 		)
 		(uuid "89324c0f-3ef0-49c8-883c-5b14903f9aa1")
-	)
-	(wire
-		(pts
-			(xy 160.02 92.71) (xy 189.23 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96423155-ed75-403a-9914-6caecf9e3387")
 	)
 	(wire
 		(pts
@@ -1288,7 +1288,7 @@
 			(uuid "45111452-123a-43d3-a421-027b8973834f")
 		)
 		(pin "NFC_MISO" input
-			(at 189.23 92.71 180)
+			(at 189.23 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1298,7 @@
 			(uuid "467d8b4b-6c59-49cb-b3c2-497a0f060b31")
 		)
 		(pin "NFC_MOSI" input
-			(at 189.23 95.25 180)
+			(at 189.23 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)

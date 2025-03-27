@@ -1635,8 +1635,7 @@
 		(effects
 			(font
 				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
+				(thickness 0.4763)
 			)
 		)
 		(uuid "30f8a63c-0222-4cb2-8960-51526cfe113c")
@@ -1647,8 +1646,7 @@
 		(effects
 			(font
 				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
+				(thickness 0.4763)
 			)
 		)
 		(uuid "7db4b953-1d1a-4223-b57a-7b3f079e9bab")
