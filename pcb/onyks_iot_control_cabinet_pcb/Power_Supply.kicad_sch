@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 185.42 105.41)
+			(xy 176.53 105.41) (xy 194.31 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 205.74 105.41)
+			(xy 201.93 105.41) (xy 205.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1827,10 +1827,10 @@
 		)
 		(uuid "80913bde-e5f6-43dd-8e16-e7c5424e7e2a")
 	)
-	(text_box "V_OUT = 3.3 V\nI_OUT_MAX = 2 A\n\nV_IN = 9V\n	I_IN_AVG = 800 mA\n	PWR_DISSIPATION = 600 mW\n\nV_IN = 12V\n	I_IN_AVG = 650 mA\n	PWR_DISSIPATION =  650 mW\n\nV_IN = 24V\n	I_IN_AVG = 350 mA\n	PWR_DISSIPATION = 1 W\n"
+	(text_box "RANGE OF V_IN: 9 V - 24 V\n* IT DEPENDS OF USED BUZZER AND THE LOCKER WHICH WE WANT TO CONTROL\n\nV_OUT: 3.3 V\nI_OUT_MAX: 2 A\n\nV_IN = 9V\n* I_IN_AVG = 800 mA\n\nV_IN = 12V\n* I_IN_AVG = 650 mA\n\nV_IN = 24V\n* I_IN_AVG = 350 mA\n\nIF WE HAVE THE POWER SUPPLY WITH PARAMETERS:\n* V_POWER_SUPPLY = X\n* I_MAX_POWER_SUPPLY = Y\n\nWE CAN POWER THE LOCK WITH:\n* V_POWER_SUPPLY = X\n* I_LOCK_MAX = I_MAX_POWER_SUPPLY - I_IN_AVG - I_BUZZER_MAX\n"
 		(exclude_from_sim no)
-		(at 201.93 68.58 0)
-		(size 37.465 32.385)
+		(at 19.05 21.59 0)
+		(size 80.01 48.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -1844,7 +1844,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "a0c1bc88-28fb-4035-8b8a-32db61c92c1d")
+		(uuid "d389fc1f-86c8-4a9b-ac4f-950d200c292f")
 	)
 	(text_box "Poprawki jak chodzi o dane w ramkach !!!!"
 		(exclude_from_sim no)
@@ -1867,7 +1867,7 @@
 	)
 	(text "MCU Power Supply"
 		(exclude_from_sim no)
-		(at 150.622 56.896 0)
+		(at 150.368 75.946 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2766,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 189.23 105.41 90)
+		(at 198.12 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2774,15 +2774,15 @@
 		(dnp no)
 		(uuid "8128b278-84ff-40b9-8e8f-89add577d0a0")
 		(property "Reference" "L1"
-			(at 189.23 100.33 90)
+			(at 198.12 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.6u"
-			(at 189.23 102.87 90)
+		(property "Value" "XAL6060-562MEC_COC"
+			(at 198.12 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" "ourFootprints:XAL6060-562MEC_COC"
-			(at 189.23 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 189.23 105.41 0)
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4260,8 +4260,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 133.096 45.974 90)
+		(property "Value" "0.1u/50V"
+			(at 135.128 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 48.5648 0)
 			(effects
 				(font
@@ -4460,15 +4460,15 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 34.798 118.872 0)
+		(property "Value" "0.1u/50V"
+			(at 32.258 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 119.38 0)
 			(effects
 				(font
@@ -5377,15 +5377,15 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 54.102 119.126 0)
+		(property "Value" "0.1u/50V"
+			(at 51.816 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 119.38 0)
 			(effects
 				(font
@@ -5952,8 +5952,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 132.842 57.404 90)
+		(property "Value" "22u/10V"
+			(at 134.112 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 59.9948 0)
 			(effects
 				(font

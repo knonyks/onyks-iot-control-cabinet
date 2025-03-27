@@ -3069,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1u/50V"
 			(at 91.44 131.572 90)
 			(effects
 				(font
@@ -3077,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 138.43 0)
 			(effects
 				(font
