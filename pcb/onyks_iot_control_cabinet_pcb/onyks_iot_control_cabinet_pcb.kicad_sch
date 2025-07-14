@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "789878cb-67d5-4bc7-a42d-b3bc72d661d0")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -113,12 +117,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -209,6 +218,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -906,6 +916,10 @@
 	(sheet
 		(at 125.73 59.69)
 		(size 34.29 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -935,163 +949,163 @@
 		)
 		(pin "NFC_MOSI" input
 			(at 160.02 92.71 0)
+			(uuid "a46da687-2c0b-4bd1-9d52-e7b4e02d0603")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a46da687-2c0b-4bd1-9d52-e7b4e02d0603")
 		)
 		(pin "FGPIO_9" input
 			(at 160.02 129.54 0)
+			(uuid "98a38eb5-41b7-4c7b-b003-b23888a01d52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "98a38eb5-41b7-4c7b-b003-b23888a01d52")
 		)
 		(pin "FGPIO_8" input
 			(at 160.02 127 0)
+			(uuid "c8054319-dda7-420e-b5c4-d36567f29502")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c8054319-dda7-420e-b5c4-d36567f29502")
 		)
 		(pin "NFC_MISO" input
 			(at 160.02 95.25 0)
+			(uuid "0377e79f-bb8e-492c-8040-48c4ec945403")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0377e79f-bb8e-492c-8040-48c4ec945403")
 		)
 		(pin "NFC_IRQ" input
 			(at 160.02 100.33 0)
+			(uuid "b642a0d9-95ca-4da3-af1e-2293f5b98ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b642a0d9-95ca-4da3-af1e-2293f5b98ca5")
 		)
 		(pin "FGPIO_7" input
 			(at 160.02 124.46 0)
+			(uuid "2c036fd3-b38b-46d8-880d-ae7cea6a6101")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c036fd3-b38b-46d8-880d-ae7cea6a6101")
 		)
 		(pin "NFC_RST" input
 			(at 160.02 97.79 0)
+			(uuid "dbd5a0f9-ebfd-46ed-a6c7-ce4a7ac412d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dbd5a0f9-ebfd-46ed-a6c7-ce4a7ac412d7")
 		)
 		(pin "FGPIO_6" input
 			(at 160.02 121.92 0)
+			(uuid "2461971f-1b7a-420d-9b95-d4eda3992595")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2461971f-1b7a-420d-9b95-d4eda3992595")
 		)
 		(pin "FGPIO_5" input
 			(at 160.02 119.38 0)
+			(uuid "0a72617d-ab89-465b-ad5b-03eb517d7fee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0a72617d-ab89-465b-ad5b-03eb517d7fee")
 		)
 		(pin "FGPIO_3" input
 			(at 160.02 114.3 0)
+			(uuid "9a59e2ce-4ea3-4b7f-97e5-6179a8385d8e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9a59e2ce-4ea3-4b7f-97e5-6179a8385d8e")
 		)
 		(pin "MCU_Locker_Switch" input
 			(at 160.02 74.93 0)
+			(uuid "388415db-2245-44b2-b851-107b972b187f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "388415db-2245-44b2-b851-107b972b187f")
 		)
 		(pin "Locker_Manual_Switch" input
 			(at 160.02 69.85 0)
+			(uuid "11e775c5-1504-45d8-8c15-500b181df1dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "11e775c5-1504-45d8-8c15-500b181df1dd")
 		)
 		(pin "MCU_Buzzer_Switch" input
 			(at 160.02 64.77 0)
+			(uuid "96ed0550-77b6-4b2b-b1cd-e2920daa5eb3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "96ed0550-77b6-4b2b-b1cd-e2920daa5eb3")
 		)
 		(pin "FGPIO_2" input
 			(at 160.02 111.76 0)
+			(uuid "b3ca3fdd-ee88-4452-a06f-30eb9fe90c8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3ca3fdd-ee88-4452-a06f-30eb9fe90c8b")
 		)
 		(pin "FGPIO_4" input
 			(at 160.02 116.84 0)
+			(uuid "1229963d-83c9-472f-82f2-e86e5eeac215")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1229963d-83c9-472f-82f2-e86e5eeac215")
 		)
 		(pin "FGPIO_1" input
 			(at 160.02 109.22 0)
+			(uuid "d6bc7713-4b49-4879-a14d-a272d381cd17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d6bc7713-4b49-4879-a14d-a272d381cd17")
 		)
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
@@ -1104,6 +1118,10 @@
 	(sheet
 		(at 189.23 59.69)
 		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1133,33 +1151,33 @@
 		)
 		(pin "MCU_Buzzer_Switch" input
 			(at 189.23 64.77 180)
+			(uuid "0e05ed90-fc16-447e-ba49-50db15edf51e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e05ed90-fc16-447e-ba49-50db15edf51e")
 		)
 		(pin "Locker_Manual_Switch" input
 			(at 189.23 69.85 180)
+			(uuid "28b1d9e0-8d84-4ad0-9790-bf2c8335f05f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "28b1d9e0-8d84-4ad0-9790-bf2c8335f05f")
 		)
 		(pin "MCU_Locker_Switch" input
 			(at 189.23 74.93 180)
+			(uuid "f1eb1081-f1f7-459f-afaa-ab0b5ba7eb44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f1eb1081-f1f7-459f-afaa-ab0b5ba7eb44")
 		)
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
@@ -1172,6 +1190,10 @@
 	(sheet
 		(at 73.66 59.69)
 		(size 36.83 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1210,6 +1232,10 @@
 	(sheet
 		(at 189.23 90.17)
 		(size 41.91 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1239,133 +1265,133 @@
 		)
 		(pin "GPIO_9" input
 			(at 189.23 129.54 180)
+			(uuid "cc9f413e-5f21-4916-bf2a-194ba1e83e5f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc9f413e-5f21-4916-bf2a-194ba1e83e5f")
 		)
 		(pin "GPIO_6" input
 			(at 189.23 121.92 180)
+			(uuid "8e7ff443-0530-49af-9be6-c19663ff3b29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8e7ff443-0530-49af-9be6-c19663ff3b29")
 		)
 		(pin "GPIO_8" input
 			(at 189.23 127 180)
+			(uuid "0f63f9b8-ea1a-4ac9-ace5-d3669d14ff37")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f63f9b8-ea1a-4ac9-ace5-d3669d14ff37")
 		)
 		(pin "GPIO_7" input
 			(at 189.23 124.46 180)
+			(uuid "0135198c-e297-4a2d-90a7-720840c46124")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0135198c-e297-4a2d-90a7-720840c46124")
 		)
 		(pin "GPIO_5" input
 			(at 189.23 119.38 180)
+			(uuid "45111452-123a-43d3-a421-027b8973834f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45111452-123a-43d3-a421-027b8973834f")
 		)
 		(pin "NFC_MISO" input
 			(at 189.23 95.25 180)
+			(uuid "467d8b4b-6c59-49cb-b3c2-497a0f060b31")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "467d8b4b-6c59-49cb-b3c2-497a0f060b31")
 		)
 		(pin "NFC_MOSI" input
 			(at 189.23 92.71 180)
+			(uuid "68200251-6469-4556-bb46-fa9c868c2a7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "68200251-6469-4556-bb46-fa9c868c2a7a")
 		)
 		(pin "GPIO_2" input
 			(at 189.23 111.76 180)
+			(uuid "cfa0f734-c59b-4e72-aee6-97b7d7aa9d67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cfa0f734-c59b-4e72-aee6-97b7d7aa9d67")
 		)
 		(pin "GPIO_4" input
 			(at 189.23 116.84 180)
+			(uuid "cc381b62-4927-499a-8182-7a3b82b9a45f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc381b62-4927-499a-8182-7a3b82b9a45f")
 		)
 		(pin "GPIO_3" input
 			(at 189.23 114.3 180)
+			(uuid "cdeb40c8-5796-4699-b9b4-643146c80c82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cdeb40c8-5796-4699-b9b4-643146c80c82")
 		)
 		(pin "GPIO_1" input
 			(at 189.23 109.22 180)
+			(uuid "1ffb46a3-cd5f-4908-a9fb-fe7bf4ee15bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ffb46a3-cd5f-4908-a9fb-fe7bf4ee15bd")
 		)
 		(pin "NFC_RST" input
 			(at 189.23 97.79 180)
+			(uuid "c33ea620-cd22-489d-91da-d21058605cfa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c33ea620-cd22-489d-91da-d21058605cfa")
 		)
 		(pin "NFC_IRQ" input
 			(at 189.23 100.33 180)
+			(uuid "f2727ca4-b0c5-4257-8ffd-f3a9b0df777c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f2727ca4-b0c5-4257-8ffd-f3a9b0df777c")
 		)
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
@@ -1380,4 +1406,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
