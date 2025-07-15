@@ -525,7 +525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22a7e2aa-c0ac-4d1c-8e21-46a2ce85a5e3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR02"
 			(at 76.2 127 0)
 			(effects
 				(font
@@ -575,7 +575,7 @@
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
 				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0"
-					(reference "#PWR018")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -591,7 +591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cb47f4f-4de1-4602-9bd7-a0dffe9d2817")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR03"
 			(at 100.33 113.03 0)
 			(effects
 				(font
@@ -641,7 +641,7 @@
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
 				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0"
-					(reference "#PWR020")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -724,7 +724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3117939-b045-4c75-9dff-ca5b8cfd4adb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 100.33 127 0)
 			(effects
 				(font
@@ -774,7 +774,7 @@
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
 				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0"
-					(reference "#PWR024")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -857,7 +857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69d1fb1-4dd4-4c34-8412-8edfdf2a8947")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -907,7 +907,7 @@
 		(instances
 			(project "onyks_iot_control_cabinet_pcb"
 				(path "/789878cb-67d5-4bc7-a42d-b3bc72d661d0"
-					(reference "#PWR017")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
