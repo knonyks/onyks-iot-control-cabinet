@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMR51625XDDCR
+D Switching Voltage Regulators SIMPLE SWITCHER synchronous buck converter with 4.3V-to-60V, 2.5A and low quiescent current
+K
+F https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1740555768028
+$ENDCMP
+#
+#End Doc Library

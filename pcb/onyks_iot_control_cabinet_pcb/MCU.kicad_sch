@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "1f384227-9389-40b0-a503-1eedf7b02be7")
 	(paper "A4")
+	(title_block
+		(title "Onyks Iot Control Cabinet")
+		(date "2025-08-25")
+		(rev "v1.0")
+		(company ",,Onyks'' Students Scientific Association")
+		(comment 1 "Karol Ambroziński")
+		(comment 2 "Jakub Jastrzębski")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
@@ -2640,9 +2648,9 @@
 		)
 		(uuid "59ac8c9b-44b6-406a-abde-44244a9de5f8")
 	)
-	(text "DIODA RGB\n"
+	(text "RGB LED"
 		(exclude_from_sim no)
-		(at 189.992 110.744 0)
+		(at 210.058 107.442 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2803,7 +2811,7 @@
 		(uuid "7e736fe3-428b-49b7-b81f-11c02e63c84f")
 	)
 	(no_connect
-		(at 196.85 128.27)
+		(at 217.17 128.27)
 		(uuid "9a445b5d-f5df-4699-93c6-7bda74ecefbf")
 	)
 	(no_connect
@@ -2944,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 181.61 128.27)
+			(xy 138.43 128.27) (xy 201.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 118.11) (xy 189.23 120.65)
+			(xy 209.55 118.11) (xy 209.55 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3634,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 135.89) (xy 189.23 137.16)
+			(xy 209.55 135.89) (xy 209.55 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4072,7 +4080,18 @@
 		)
 		(uuid "ffc02545-ebf3-4969-835a-079823909eb5")
 	)
-	(hierarchical_label "FGPIO_3"
+	(hierarchical_label "RFID_13MHz_RST"
+		(shape input)
+		(at 151.13 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17fdfde5-8068-4bee-9c25-b9259b1a7579")
+	)
+	(hierarchical_label "GPIO_4"
 		(shape input)
 		(at 151.13 102.87 0)
 		(effects
@@ -4083,7 +4102,18 @@
 		)
 		(uuid "5844b1c8-5f24-4b66-b874-a4799d5eb2f5")
 	)
-	(hierarchical_label "FGPIO_8"
+	(hierarchical_label "LOCK_MANUALL_SWITCH"
+		(shape input)
+		(at 151.13 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a5a9eab-865c-422b-8ff6-1548b5f3bb65")
+	)
+	(hierarchical_label "GPIO_6"
 		(shape input)
 		(at 151.13 133.35 0)
 		(effects
@@ -4094,62 +4124,18 @@
 		)
 		(uuid "5cd92c5f-2b6b-44e9-8a31-7cb7af4c6f48")
 	)
-	(hierarchical_label "MCU_Locker_Switch"
+	(hierarchical_label "GPIO_2"
 		(shape input)
-		(at 151.13 107.95 0)
+		(at 151.13 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5ef87850-1711-4c26-96c8-6e69ac0fdbd4")
+		(uuid "62a0b98f-9092-4605-bdf4-88d984879b12")
 	)
-	(hierarchical_label "NFC_MOSI"
-		(shape input)
-		(at 151.13 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f70cdc9-57c1-4c4d-b409-34f84d549623")
-	)
-	(hierarchical_label "Locker_Manual_Switch"
-		(shape input)
-		(at 151.13 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "645e93aa-6104-49e0-b345-d4d354fd5d37")
-	)
-	(hierarchical_label "NFC_MISO"
-		(shape input)
-		(at 151.13 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75cab856-eb38-4da9-8847-a63ce0ecabd7")
-	)
-	(hierarchical_label "NFC_IRQ"
-		(shape input)
-		(at 151.13 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "936331e3-7c96-4eb0-b14a-6331483975e4")
-	)
-	(hierarchical_label "FGPIO_6"
+	(hierarchical_label "RFID_125kHz_RX"
 		(shape input)
 		(at 151.13 115.57 0)
 		(effects
@@ -4158,9 +4144,53 @@
 			)
 			(justify left)
 		)
-		(uuid "96760d9d-03d3-42dc-bd6f-cd792207460b")
+		(uuid "63ca06ff-90d6-4a12-b704-fe0ae217c791")
 	)
-	(hierarchical_label "FGPIO_7"
+	(hierarchical_label "RFID_13MHz_MISO"
+		(shape input)
+		(at 151.13 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70902b5c-f01d-4a6a-91ae-3284ab048f4e")
+	)
+	(hierarchical_label "RFID_13MHz_IRQ"
+		(shape input)
+		(at 151.13 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b62d2d9-d425-4aa2-a48d-84cbae137f02")
+	)
+	(hierarchical_label "BUZZER_SWITCH"
+		(shape input)
+		(at 151.13 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "802c83dc-bf60-4450-b64a-83cc15d93fe5")
+	)
+	(hierarchical_label "RFID_125kHz_TX"
+		(shape input)
+		(at 151.13 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86e1f1ba-e625-4a89-a7de-a9e0db838866")
+	)
+	(hierarchical_label "GPIO_5"
 		(shape input)
 		(at 151.13 130.81 0)
 		(effects
@@ -4171,29 +4201,18 @@
 		)
 		(uuid "9d4dc5fc-cb37-42d2-9707-f3a85e180c6e")
 	)
-	(hierarchical_label "NFC_RST"
+	(hierarchical_label "RFID_13MHz_MOSI"
 		(shape input)
-		(at 151.13 125.73 0)
+		(at 151.13 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c70886c1-6e9d-4a46-b7e3-e1070427c7f2")
+		(uuid "c5122dfe-193f-4f9f-8c13-08a4d272f0f9")
 	)
-	(hierarchical_label "MCU_Buzzer_Switch"
-		(shape input)
-		(at 151.13 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9b0a0d2-c676-48fc-899d-63b294202ee3")
-	)
-	(hierarchical_label "FGPIO_2"
+	(hierarchical_label "GPIO_3"
 		(shape input)
 		(at 151.13 90.17 0)
 		(effects
@@ -4204,18 +4223,18 @@
 		)
 		(uuid "d5db0314-9705-4361-b88e-8a71325a2446")
 	)
-	(hierarchical_label "FGPIO_5"
+	(hierarchical_label "LOCK_SWITCH"
 		(shape input)
-		(at 151.13 113.03 0)
+		(at 151.13 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d992e391-db11-456c-83fd-451fbec11f99")
+		(uuid "d8f0b27b-ba0c-4ddd-8530-dfddfb991355")
 	)
-	(hierarchical_label "FGPIO_1"
+	(hierarchical_label "GPIO_1"
 		(shape input)
 		(at 151.13 82.55 0)
 		(effects
@@ -4226,7 +4245,7 @@
 		)
 		(uuid "e5518b6f-804e-4d8b-95f3-b293a9eb5298")
 	)
-	(hierarchical_label "FGPIO_9"
+	(hierarchical_label "GPIO_7"
 		(shape input)
 		(at 151.13 135.89 0)
 		(effects
@@ -4236,17 +4255,6 @@
 			(justify left)
 		)
 		(uuid "ebf050ea-dea9-478b-9a7f-d1830ac1258c")
-	)
-	(hierarchical_label "FGPIO_4"
-		(shape input)
-		(at 151.13 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ece62e35-7d90-4b93-99a6-fb5335019ffb")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4649,7 +4657,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 189.23 118.11 0)
+		(at 209.55 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4657,7 +4665,7 @@
 		(dnp no)
 		(uuid "4a50bb92-960f-4cae-8d41-352957c70109")
 		(property "Reference" "#PWR013"
-			(at 189.23 121.92 0)
+			(at 209.55 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4674,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 188.976 114.046 0)
+			(at 209.296 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 118.11 0)
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 118.11 0)
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 118.11 0)
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4722,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 189.23 128.27 0)
+		(at 209.55 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4722,7 +4730,7 @@
 		(dnp no)
 		(uuid "4f0d567f-af02-4dfb-a752-ba0749abf0d8")
 		(property "Reference" "D1"
-			(at 191.262 119.38 0)
+			(at 211.582 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4738,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 194.564 121.412 0)
+			(at 214.884 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4746,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 190.5 135.89 0)
+			(at 210.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4756,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 191.77 137.795 0)
+			(at 212.09 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4766,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 189.23 128.27 0)
+			(at 209.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5044,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 137.16 0)
+		(at 209.55 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5044,7 +5052,7 @@
 		(dnp no)
 		(uuid "728b2d46-cfc5-4bc8-a0a6-8a4b9317bab5")
 		(property "Reference" "#PWR014"
-			(at 189.23 143.51 0)
+			(at 209.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 142.24 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 137.16 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 137.16 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 137.16 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
