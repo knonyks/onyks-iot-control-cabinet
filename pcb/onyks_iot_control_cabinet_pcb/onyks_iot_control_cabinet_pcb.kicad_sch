@@ -224,7 +224,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 111.506 24.13 0)
+		(at 228.346 93.98 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -235,7 +235,7 @@
 	)
 	(text "RFID and GPIOs"
 		(exclude_from_sim no)
-		(at -47.752 103.378 0)
+		(at 126.238 97.028 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -246,7 +246,7 @@
 	)
 	(text "Mounting holes \nfor the case"
 		(exclude_from_sim no)
-		(at 48.514 24.384 0)
+		(at 233.934 32.004 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -257,7 +257,7 @@
 	)
 	(text "MCU, Debugers' \ninputs etc."
 		(exclude_from_sim no)
-		(at -99.314 51.816 0)
+		(at 51.816 45.466 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -268,7 +268,7 @@
 	)
 	(text "Lock\nand Buzzer"
 		(exclude_from_sim no)
-		(at -49.784 52.832 0)
+		(at 124.206 46.482 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -279,7 +279,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 128.27) (xy -69.85 128.27)
+			(xy 67.31 121.92) (xy 104.14 121.92)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 140.97) (xy -69.85 140.97)
+			(xy 67.31 134.62) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +299,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 156.21) (xy -69.85 156.21)
+			(xy 67.31 149.86) (xy 104.14 149.86)
 		)
 		(stroke
 			(width 0)
@@ -309,7 +309,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 74.93) (xy -69.85 74.93)
+			(xy 67.31 68.58) (xy 104.14 68.58)
 		)
 		(stroke
 			(width 0)
@@ -319,7 +319,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 158.75) (xy -69.85 158.75)
+			(xy 67.31 152.4) (xy 104.14 152.4)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +329,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 133.35) (xy -69.85 133.35)
+			(xy 67.31 127) (xy 104.14 127)
 		)
 		(stroke
 			(width 0)
@@ -339,7 +339,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 123.19) (xy -69.85 123.19)
+			(xy 67.31 116.84) (xy 104.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -349,7 +349,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 120.65) (xy -69.85 120.65)
+			(xy 67.31 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -359,7 +359,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 148.59) (xy -69.85 148.59)
+			(xy 67.31 142.24) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 72.39) (xy -69.85 72.39)
+			(xy 67.31 66.04) (xy 104.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +379,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 146.05) (xy -69.85 146.05)
+			(xy 67.31 139.7) (xy 104.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -389,7 +389,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 130.81) (xy -69.85 130.81)
+			(xy 67.31 124.46) (xy 104.14 124.46)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 125.73) (xy -69.85 125.73)
+			(xy 67.31 119.38) (xy 104.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 69.85) (xy -69.85 69.85)
+			(xy 67.31 63.5) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 135.89) (xy -69.85 135.89)
+			(xy 67.31 129.54) (xy 104.14 129.54)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy -83.82 143.51) (xy -69.85 143.51)
+			(xy 67.31 137.16) (xy 104.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +439,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 55.88 40.64 0)
+		(at 241.3 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -448,7 +448,7 @@
 		(fields_autoplaced yes)
 		(uuid "186b221a-7433-48a8-b4a1-99c208626b44")
 		(property "Reference" "H3"
-			(at 58.42 38.0999 0)
+			(at 243.84 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +457,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 58.42 40.6399 0)
+			(at 243.84 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 55.88 40.64 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,7 +475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 40.64 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +484,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 55.88 40.64 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +506,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 26.67 40.64 0)
+		(at 212.09 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -515,7 +515,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f204ef0-66f2-4562-8bb7-63df7d020aac")
 		(property "Reference" "H1"
-			(at 29.21 38.0999 0)
+			(at 214.63 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,7 +524,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 29.21 40.6399 0)
+			(at 214.63 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +533,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 26.67 40.64 0)
+			(at 212.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 40.64 0)
+			(at 212.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 26.67 40.64 0)
+			(at 212.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 57.15 0)
+		(at 212.09 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -582,7 +582,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a7e2aa-c0ac-4d1c-8e21-46a2ce85a5e3")
 		(property "Reference" "#PWR02"
-			(at 26.67 63.5 0)
+			(at 212.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 62.23 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 57.15 0)
+			(at 212.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 57.15 0)
+			(at 212.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 57.15 0)
+			(at 212.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +639,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 43.18 0)
+		(at 241.3 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -648,7 +648,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cb47f4f-4de1-4602-9bd7-a0dffe9d2817")
 		(property "Reference" "#PWR03"
-			(at 55.88 49.53 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,7 +657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 48.26 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 43.18 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 43.18 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 43.18 0)
+			(at 241.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +705,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 55.88 54.61 0)
+		(at 241.3 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -714,7 +714,7 @@
 		(fields_autoplaced yes)
 		(uuid "ced137fb-8b9c-4488-967d-938d756bcf3c")
 		(property "Reference" "H4"
-			(at 58.42 52.0699 0)
+			(at 243.84 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +723,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 58.42 54.6099 0)
+			(at 243.84 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +732,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 55.88 54.61 0)
+			(at 241.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,7 +741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 54.61 0)
+			(at 241.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +750,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 55.88 54.61 0)
+			(at 241.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +772,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 57.15 0)
+		(at 241.3 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -781,7 +781,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3117939-b045-4c75-9dff-ca5b8cfd4adb")
 		(property "Reference" "#PWR04"
-			(at 55.88 63.5 0)
+			(at 241.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 62.23 0)
+			(at 241.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 57.15 0)
+			(at 241.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 57.15 0)
+			(at 241.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 57.15 0)
+			(at 241.3 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +838,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 26.67 54.61 0)
+		(at 212.09 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -847,7 +847,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc60085f-d5fb-4f87-bc50-1baf88289f8b")
 		(property "Reference" "H2"
-			(at 29.21 52.0699 0)
+			(at 214.63 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +856,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 29.21 54.6099 0)
+			(at 214.63 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +865,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 26.67 54.61 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 54.61 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +883,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 26.67 54.61 0)
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +905,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 43.18 0)
+		(at 212.09 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +914,7 @@
 		(fields_autoplaced yes)
 		(uuid "e69d1fb1-4dd4-4c34-8412-8edfdf2a8947")
 		(property "Reference" "#PWR01"
-			(at 26.67 49.53 0)
+			(at 212.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 48.26 0)
+			(at 212.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 43.18 0)
+			(at 212.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 43.18 0)
+			(at 212.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 43.18 0)
+			(at 212.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 		)
 	)
 	(sheet
-		(at -118.11 64.77)
+		(at 33.02 58.42)
 		(size 34.29 99.06)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -986,7 +986,7 @@
 		)
 		(uuid "13ebc194-338a-49a6-8327-5cf2c633b763")
 		(property "Sheetname" "MCU"
-			(at -118.11 64.0584 0)
+			(at 33.02 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +995,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at -118.11 164.4146 0)
+			(at 33.02 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(pin "GPIO_7" input
-			(at -83.82 135.89 0)
+			(at 67.31 129.54 0)
 			(uuid "d06c1744-adc4-479c-8bb5-984f73f3aad8")
 			(effects
 				(font
@@ -1014,7 +1014,7 @@
 			)
 		)
 		(pin "GPIO_2" input
-			(at -83.82 123.19 0)
+			(at 67.31 116.84 0)
 			(uuid "29b40b1f-989b-4ee0-b98e-c81f5269ef53")
 			(effects
 				(font
@@ -1024,7 +1024,7 @@
 			)
 		)
 		(pin "GPIO_3" input
-			(at -83.82 125.73 0)
+			(at 67.31 119.38 0)
 			(uuid "a91fc3ac-35b8-4b53-b277-582897857e93")
 			(effects
 				(font
@@ -1034,7 +1034,7 @@
 			)
 		)
 		(pin "GPIO_1" input
-			(at -83.82 120.65 0)
+			(at 67.31 114.3 0)
 			(uuid "b8734a91-5b27-4574-8628-cb38ace1f213")
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 			)
 		)
 		(pin "BUZZER_SWITCH" input
-			(at -83.82 69.85 0)
+			(at 67.31 63.5 0)
 			(uuid "5a4e7e9d-942f-48ec-ab18-7513df2151c7")
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(pin "LOCK_SWITCH" input
-			(at -83.82 72.39 0)
+			(at 67.31 66.04 0)
 			(uuid "3773dd01-2f10-4c64-a5e8-1a46bd902f41")
 			(effects
 				(font
@@ -1064,7 +1064,7 @@
 			)
 		)
 		(pin "LOCK_MANUALL_SWITCH" input
-			(at -83.82 74.93 0)
+			(at 67.31 68.58 0)
 			(uuid "de7b2129-eca9-41fc-8ddf-c8ace151c468")
 			(effects
 				(font
@@ -1074,7 +1074,7 @@
 			)
 		)
 		(pin "GPIO_4" input
-			(at -83.82 128.27 0)
+			(at 67.31 121.92 0)
 			(uuid "41b71975-3208-44f4-b3c4-162ffed2c0c6")
 			(effects
 				(font
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(pin "RFID_125kHz_RX" input
-			(at -83.82 156.21 0)
+			(at 67.31 149.86 0)
 			(uuid "00c5104f-4ccb-4d90-9b2c-ab76749425c8")
 			(effects
 				(font
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(pin "RFID_125kHz_TX" input
-			(at -83.82 158.75 0)
+			(at 67.31 152.4 0)
 			(uuid "a85253a6-be12-4a33-b428-1e398983a393")
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(pin "RFID_13MHz_MISO" input
-			(at -83.82 140.97 0)
+			(at 67.31 134.62 0)
 			(uuid "27008a15-96b6-49fc-b105-4b4e86dfd500")
 			(effects
 				(font
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(pin "RFID_13MHz_RST" input
-			(at -83.82 143.51 0)
+			(at 67.31 137.16 0)
 			(uuid "7d715f4b-b44d-413d-9c40-7df84af3d019")
 			(effects
 				(font
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(pin "RFID_13MHz_IRQ" input
-			(at -83.82 146.05 0)
+			(at 67.31 139.7 0)
 			(uuid "dc1e15d6-f33b-43ab-a4dc-2ef3bd887e0b")
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(pin "RFID_13MHz_MOSI" input
-			(at -83.82 148.59 0)
+			(at 67.31 142.24 0)
 			(uuid "5de9ad97-d353-42e1-8aee-b1dba3289019")
 			(effects
 				(font
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(pin "GPIO_6" input
-			(at -83.82 133.35 0)
+			(at 67.31 127 0)
 			(uuid "35860841-f587-49e0-a0da-15415e6891e7")
 			(effects
 				(font
@@ -1154,7 +1154,7 @@
 			)
 		)
 		(pin "GPIO_5" input
-			(at -83.82 130.81 0)
+			(at 67.31 124.46 0)
 			(uuid "1a704b06-48d9-4159-b6f3-9b8fba52a188")
 			(effects
 				(font
@@ -1172,7 +1172,7 @@
 		)
 	)
 	(sheet
-		(at -69.85 64.77)
+		(at 104.14 58.42)
 		(size 41.91 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1188,7 +1188,7 @@
 		)
 		(uuid "48990703-11cc-42d8-8502-72244c0bfa20")
 		(property "Sheetname" "Locker"
-			(at -69.85 64.0584 0)
+			(at 104.14 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 			)
 		)
 		(property "Sheetfile" "Locker.kicad_sch"
-			(at -69.85 86.9446 0)
+			(at 104.14 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(pin "BUZZER_SWITCH" input
-			(at -69.85 69.85 180)
+			(at 104.14 63.5 180)
 			(uuid "709e551f-aa54-485d-9a19-7886f8e9118f")
 			(effects
 				(font
@@ -1216,7 +1216,7 @@
 			)
 		)
 		(pin "LOCK_SWITCH" input
-			(at -69.85 72.39 180)
+			(at 104.14 66.04 180)
 			(uuid "5df54791-48c0-4cfd-9d0c-ebacb069383e")
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(pin "LOCK_MANUALL_SWITCH" input
-			(at -69.85 74.93 180)
+			(at 104.14 68.58 180)
 			(uuid "434bb88a-8b37-475b-b87d-e58d8d995017")
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 34.29)
+		(at 209.55 104.14)
 		(size 36.83 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +1260,7 @@
 		)
 		(uuid "4d976a63-6b51-465b-8a87-51604fe7b516")
 		(property "Sheetname" "Power Supply"
-			(at 92.71 33.5784 0)
+			(at 209.55 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1269,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supply.kicad_sch"
-			(at 92.71 48.8446 0)
+			(at 209.55 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 		)
 	)
 	(sheet
-		(at -69.85 115.57)
+		(at 104.14 109.22)
 		(size 41.91 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1302,7 +1302,7 @@
 		)
 		(uuid "9fa608f4-5282-4caa-ae1b-46582b97cb5d")
 		(property "Sheetname" "Output Connectors"
-			(at -69.85 114.8584 0)
+			(at 104.14 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1311,7 @@
 			)
 		)
 		(property "Sheetfile" "Output_Connectors.kicad_sch"
-			(at -69.85 163.1446 0)
+			(at 104.14 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1320,7 @@
 			)
 		)
 		(pin "GPIO_6" input
-			(at -69.85 133.35 180)
+			(at 104.14 127 180)
 			(uuid "8e7ff443-0530-49af-9be6-c19663ff3b29")
 			(effects
 				(font
@@ -1330,7 +1330,7 @@
 			)
 		)
 		(pin "GPIO_7" input
-			(at -69.85 135.89 180)
+			(at 104.14 129.54 180)
 			(uuid "0135198c-e297-4a2d-90a7-720840c46124")
 			(effects
 				(font
@@ -1340,7 +1340,7 @@
 			)
 		)
 		(pin "GPIO_5" input
-			(at -69.85 130.81 180)
+			(at 104.14 124.46 180)
 			(uuid "45111452-123a-43d3-a421-027b8973834f")
 			(effects
 				(font
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(pin "GPIO_2" input
-			(at -69.85 123.19 180)
+			(at 104.14 116.84 180)
 			(uuid "cfa0f734-c59b-4e72-aee6-97b7d7aa9d67")
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(pin "GPIO_4" input
-			(at -69.85 128.27 180)
+			(at 104.14 121.92 180)
 			(uuid "cc381b62-4927-499a-8182-7a3b82b9a45f")
 			(effects
 				(font
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(pin "GPIO_3" input
-			(at -69.85 125.73 180)
+			(at 104.14 119.38 180)
 			(uuid "cdeb40c8-5796-4699-b9b4-643146c80c82")
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(pin "GPIO_1" input
-			(at -69.85 120.65 180)
+			(at 104.14 114.3 180)
 			(uuid "1ffb46a3-cd5f-4908-a9fb-fe7bf4ee15bd")
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 			)
 		)
 		(pin "RFID_13MHz_MISO" input
-			(at -69.85 140.97 180)
+			(at 104.14 134.62 180)
 			(uuid "b5e7e43d-f5ec-489c-b8e8-002df207094e")
 			(effects
 				(font
@@ -1400,7 +1400,7 @@
 			)
 		)
 		(pin "RFID_13MHz_RST" input
-			(at -69.85 143.51 180)
+			(at 104.14 137.16 180)
 			(uuid "7bd22668-06e6-4144-afb3-4dc47470d977")
 			(effects
 				(font
@@ -1410,7 +1410,7 @@
 			)
 		)
 		(pin "RFID_13MHz_IRQ" input
-			(at -69.85 146.05 180)
+			(at 104.14 139.7 180)
 			(uuid "26269d55-b10f-4ce1-8a58-271daf7dd54a")
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 			)
 		)
 		(pin "RFID_13MHz_MOSI" input
-			(at -69.85 148.59 180)
+			(at 104.14 142.24 180)
 			(uuid "4052a0c3-4a89-44ce-ac83-411a784d30bf")
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 			)
 		)
 		(pin "RFID_125kHz_RX" input
-			(at -69.85 156.21 180)
+			(at 104.14 149.86 180)
 			(uuid "ee73d7a8-31eb-4669-b465-d974e6ba0fea")
 			(effects
 				(font
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(pin "RFID_125kHz_TX" input
-			(at -69.85 158.75 180)
+			(at 104.14 152.4 180)
 			(uuid "0b8a8387-0a35-4231-9724-3c4e9540cc08")
 			(effects
 				(font
