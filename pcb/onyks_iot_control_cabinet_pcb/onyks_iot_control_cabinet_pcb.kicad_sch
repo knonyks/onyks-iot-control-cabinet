@@ -1003,7 +1003,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_7" input
+		(pin "GPIO_O7" input
 			(at 67.31 129.54 0)
 			(uuid "d06c1744-adc4-479c-8bb5-984f73f3aad8")
 			(effects
@@ -1013,7 +1013,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_2" input
+		(pin "GPIO_O2" input
 			(at 67.31 116.84 0)
 			(uuid "29b40b1f-989b-4ee0-b98e-c81f5269ef53")
 			(effects
@@ -1023,7 +1023,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_3" input
+		(pin "GPIO_O3" input
 			(at 67.31 119.38 0)
 			(uuid "a91fc3ac-35b8-4b53-b277-582897857e93")
 			(effects
@@ -1033,7 +1033,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_1" input
+		(pin "GPIO_O1" input
 			(at 67.31 114.3 0)
 			(uuid "b8734a91-5b27-4574-8628-cb38ace1f213")
 			(effects
@@ -1073,7 +1073,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_4" input
+		(pin "GPIO_O4" input
 			(at 67.31 121.92 0)
 			(uuid "41b71975-3208-44f4-b3c4-162ffed2c0c6")
 			(effects
@@ -1143,7 +1143,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_6" input
+		(pin "GPIO_O6" input
 			(at 67.31 127 0)
 			(uuid "35860841-f587-49e0-a0da-15415e6891e7")
 			(effects
@@ -1153,7 +1153,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_5" input
+		(pin "GPIO_O5" input
 			(at 67.31 124.46 0)
 			(uuid "1a704b06-48d9-4159-b6f3-9b8fba52a188")
 			(effects
@@ -1319,7 +1319,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_6" input
+		(pin "GPIO_O6" input
 			(at 104.14 127 180)
 			(uuid "8e7ff443-0530-49af-9be6-c19663ff3b29")
 			(effects
@@ -1329,7 +1329,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_7" input
+		(pin "GPIO_O7" input
 			(at 104.14 129.54 180)
 			(uuid "0135198c-e297-4a2d-90a7-720840c46124")
 			(effects
@@ -1339,7 +1339,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_5" input
+		(pin "GPIO_O5" input
 			(at 104.14 124.46 180)
 			(uuid "45111452-123a-43d3-a421-027b8973834f")
 			(effects
@@ -1349,7 +1349,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_2" input
+		(pin "GPIO_O2" input
 			(at 104.14 116.84 180)
 			(uuid "cfa0f734-c59b-4e72-aee6-97b7d7aa9d67")
 			(effects
@@ -1359,7 +1359,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_4" input
+		(pin "GPIO_O4" input
 			(at 104.14 121.92 180)
 			(uuid "cc381b62-4927-499a-8182-7a3b82b9a45f")
 			(effects
@@ -1369,7 +1369,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_3" input
+		(pin "GPIO_O3" input
 			(at 104.14 119.38 180)
 			(uuid "cdeb40c8-5796-4699-b9b4-643146c80c82")
 			(effects
@@ -1379,7 +1379,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_1" input
+		(pin "GPIO_O1" input
 			(at 104.14 114.3 180)
 			(uuid "1ffb46a3-cd5f-4908-a9fb-fe7bf4ee15bd")
 			(effects

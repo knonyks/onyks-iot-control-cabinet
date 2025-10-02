@@ -3321,6 +3321,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528ebfda-469f-492f-b309-030d3f26bf59")
+	)
+	(wire
+		(pts
 			(xy 138.43 135.89) (xy 151.13 135.89)
 		)
 		(stroke
@@ -3358,16 +3368,6 @@
 			(type default)
 		)
 		(uuid "5bb0951a-bc06-4cbe-8bba-e3f0778962fa")
-	)
-	(wire
-		(pts
-			(xy 138.43 90.17) (xy 151.13 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d87da56-acb6-4fb5-9e5a-00208cf0ebc5")
 	)
 	(wire
 		(pts
@@ -4069,26 +4069,6 @@
 		)
 		(uuid "4d5c2877-33e6-424e-9fad-67f610755d92")
 	)
-	(label "GPIO_5"
-		(at 149.86 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c0d18e1-367f-4354-b17a-f3472a2c2448")
-	)
-	(label "GPIO_4"
-		(at 149.86 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bae4a0b-c78b-4d61-932d-49c23d7bc479")
-	)
 	(label "MTMS"
 		(at 62.23 40.64 180)
 		(effects
@@ -4148,6 +4128,16 @@
 			(justify right bottom)
 		)
 		(uuid "78c6ce53-a845-42fb-84a5-7be06278dc5a")
+	)
+	(label "GPIO_5"
+		(at 149.86 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86578633-e165-40c1-a056-d37239fb1b81")
 	)
 	(label "GPIO_27"
 		(at 149.86 125.73 180)
@@ -4228,6 +4218,16 @@
 			(justify left bottom)
 		)
 		(uuid "98105e75-9440-471b-a435-44b6edbc9c77")
+	)
+	(label "GPIO_4"
+		(at 149.86 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ca89125-061f-4fd1-97a4-4a0e85f44ca2")
 	)
 	(label "RTS"
 		(at 31.75 157.48 0)
@@ -4330,7 +4330,7 @@
 		)
 		(uuid "17fdfde5-8068-4bee-9c25-b9259b1a7579")
 	)
-	(hierarchical_label "GPIO_4"
+	(hierarchical_label "GPIO_O4"
 		(shape input)
 		(at 151.13 102.87 0)
 		(effects
@@ -4352,7 +4352,7 @@
 		)
 		(uuid "5a5a9eab-865c-422b-8ff6-1548b5f3bb65")
 	)
-	(hierarchical_label "GPIO_6"
+	(hierarchical_label "GPIO_O6"
 		(shape input)
 		(at 151.13 133.35 0)
 		(effects
@@ -4363,7 +4363,7 @@
 		)
 		(uuid "5cd92c5f-2b6b-44e9-8a31-7cb7af4c6f48")
 	)
-	(hierarchical_label "GPIO_2"
+	(hierarchical_label "GPIO_O2"
 		(shape input)
 		(at 151.13 87.63 0)
 		(effects
@@ -4429,7 +4429,18 @@
 		)
 		(uuid "86e1f1ba-e625-4a89-a7de-a9e0db838866")
 	)
-	(hierarchical_label "GPIO_5"
+	(hierarchical_label "GPIO_O3"
+		(shape input)
+		(at 151.13 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f3e8b56-1149-4064-9784-4c69ec16a9d1")
+	)
+	(hierarchical_label "GPIO_O5"
 		(shape input)
 		(at 151.13 130.81 0)
 		(effects
@@ -4451,17 +4462,6 @@
 		)
 		(uuid "c5122dfe-193f-4f9f-8c13-08a4d272f0f9")
 	)
-	(hierarchical_label "GPIO_3"
-		(shape input)
-		(at 151.13 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5db0314-9705-4361-b88e-8a71325a2446")
-	)
 	(hierarchical_label "LOCK_SWITCH"
 		(shape input)
 		(at 151.13 105.41 0)
@@ -4473,7 +4473,7 @@
 		)
 		(uuid "d8f0b27b-ba0c-4ddd-8530-dfddfb991355")
 	)
-	(hierarchical_label "GPIO_1"
+	(hierarchical_label "GPIO_O1"
 		(shape input)
 		(at 151.13 82.55 0)
 		(effects
@@ -4484,7 +4484,7 @@
 		)
 		(uuid "e5518b6f-804e-4d8b-95f3-b293a9eb5298")
 	)
-	(hierarchical_label "GPIO_7"
+	(hierarchical_label "GPIO_O7"
 		(shape input)
 		(at 151.13 135.89 0)
 		(effects

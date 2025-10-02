@@ -3036,7 +3036,7 @@
 		)
 		(uuid "ac9c4a18-4574-412d-a559-0041cd4f0818")
 	)
-	(hierarchical_label "GPIO_2"
+	(hierarchical_label "GPIO_O2"
 		(shape input)
 		(at 57.15 97.79 180)
 		(effects
@@ -3047,7 +3047,7 @@
 		)
 		(uuid "064e2a93-14d1-4980-acfc-c4169b317c59")
 	)
-	(hierarchical_label "GPIO_4"
+	(hierarchical_label "GPIO_O4"
 		(shape input)
 		(at 57.15 102.87 180)
 		(effects
@@ -3058,7 +3058,7 @@
 		)
 		(uuid "6099c810-6e0f-4158-8297-62e9ac8c91da")
 	)
-	(hierarchical_label "GPIO_6"
+	(hierarchical_label "GPIO_O6"
 		(shape input)
 		(at 57.15 107.95 180)
 		(effects
@@ -3102,7 +3102,7 @@
 		)
 		(uuid "b25723ba-3ded-46e0-a855-1d80223d0e4d")
 	)
-	(hierarchical_label "GPIO_3"
+	(hierarchical_label "GPIO_O3"
 		(shape input)
 		(at 57.15 100.33 180)
 		(effects
@@ -3113,7 +3113,7 @@
 		)
 		(uuid "b27388ed-ad3d-440d-89be-34922091bfec")
 	)
-	(hierarchical_label "GPIO_1"
+	(hierarchical_label "GPIO_O1"
 		(shape input)
 		(at 57.15 95.25 180)
 		(effects
@@ -3146,7 +3146,7 @@
 		)
 		(uuid "c25dc3a4-b707-4017-a83a-403e64d7b3df")
 	)
-	(hierarchical_label "GPIO_7"
+	(hierarchical_label "GPIO_O7"
 		(shape input)
 		(at 57.15 110.49 180)
 		(effects
@@ -3157,7 +3157,7 @@
 		)
 		(uuid "eeba7261-1e5e-4fe6-a1f9-a653023f301f")
 	)
-	(hierarchical_label "GPIO_5"
+	(hierarchical_label "GPIO_O5"
 		(shape input)
 		(at 57.15 105.41 180)
 		(effects
