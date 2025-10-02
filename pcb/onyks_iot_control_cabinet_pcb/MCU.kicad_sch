@@ -5191,7 +5191,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k/5%"
 			(at 52.07 153.67 90)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "BC847B"
 			(at 67.31 158.7499 0)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "BC847B"
 			(at 67.31 179.0699 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k/5%"
 			(at 52.07 173.99 90)
 			(effects
 				(font
